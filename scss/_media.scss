@@ -1,0 +1,34 @@
+// Smartphones
+@media (max-width: 768px) {
+    #logo{
+        display: none;
+    }
+    .main-nav{
+        ul{
+            justify-content: space-between;
+        }
+        li{
+            padding: 1rem 0.5rem;
+        }
+    }
+    .about-grid{
+        grid-template-columns: none;
+        grid-template-rows: auto;
+    }
+    .skills {
+        margin: 9rem 0 3rem;
+        &-grid{
+            display: block;
+        }
+    }
+    .items, .footer-top{
+        display: block;
+    }
+    #contact .text-fields{
+        display: block;
+        input{
+            margin-bottom: 1rem;
+        }
+
+    }
+}
